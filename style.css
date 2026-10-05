@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#addTaskButton {
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: turquoise;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+/* We will use this later with JavaScript */
+.completed {
+    text-decoration: line-through;
+}
+```
+
