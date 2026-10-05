@@ -47,9 +47,17 @@ h1 {
     width: 300px;
 }
 
-/* We will use this later with JavaScript */
+
 .completed {
     text-decoration: line-through;
 }
-```
+
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
